@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+package com.example.RoomSpacePlanner;
 
 import android.content.DialogInterface;
 import android.content.Intent;

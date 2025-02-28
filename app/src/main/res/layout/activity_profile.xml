@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@color/purple_900"
+        android:background="#5ECFFA"
         android:onClick="logout"
         android:text="Logout"
         android:textColor="#FFFFFF"
@@ -105,7 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:text="Verify Now"
+        android:text=""
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,14 +114,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071" />
 
+
     <Button
         android:id="@+id/resetPasswordLocal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@color/purple_900"
-        android:text="Reset Password"
+        android:background="#FFFFFF"
+        android:text="r"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,6 +130,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/changeProfile"
         app:layout_constraintVertical_bias="0.942" />
+
 
     <TextView
         android:id="@+id/textView3"
@@ -204,15 +206,14 @@
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         tools:ignore="TextContrastCheck" />
-
     <Button
         android:id="@+id/changeProfile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@color/purple_900"
-        android:text="Change Profile"
+        android:background="#FFFFFF"
+        android:text="C"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/resetPasswordLocal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -220,6 +221,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profilePhone"
         app:layout_constraintVertical_bias="0.617" />
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"

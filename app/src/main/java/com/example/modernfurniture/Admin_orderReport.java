@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+package com.example.RoomSpacePlanner;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -65,10 +65,11 @@ public class Admin_orderReport extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.ureport:
+                  /**  case R.id.ureport:
                         startActivity(new Intent(getApplicationContext(),Admin_userReport.class));
                         overridePendingTransition(0,0);
                         return true;
+                   */
 
                 }
                 return false;

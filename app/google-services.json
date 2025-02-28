@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "161840568976",
-    "project_id": "modernfurniture-ca3cb",
-    "storage_bucket": "modernfurniture-ca3cb.appspot.com"
+    "project_id": "RoomSpacePlanner-ca3cb",
+    "storage_bucket": "RoomSpacePlanner-ca3cb.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:161840568976:android:d888a0ba5b6fb561db1615",
         "android_client_info": {
-          "package_name": "com.example.modernfurniture"
+          "package_name": "com.example.RoomSpacePlanner"
         }
       },
       "oauth_client": [

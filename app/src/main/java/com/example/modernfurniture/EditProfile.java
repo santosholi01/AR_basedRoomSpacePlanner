@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+ package com.example.RoomSpacePlanner;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -162,3 +162,4 @@ public class EditProfile extends AppCompatActivity {
 
     }
 }
+

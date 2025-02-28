@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+/** package com.example.RoomSpacePlanner;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -43,7 +43,7 @@ public class wishlist extends AppCompatActivity {
         setContentView(R.layout.activity_wishlist);
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView)findViewById(R.id.navigation);
-        bottomNavigationView.setSelectedItemId(R.id.wishlist);
+        //bottomNavigationView.setSelectedItemId(R.id.wishlist);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @SuppressLint("NonConstantResourceId")
@@ -65,13 +65,15 @@ public class wishlist extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
+
                     case R.id.profile:
                         startActivity(new Intent(getApplicationContext(),profile.class));
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.wishlist:
+                   case R.id.wishlist:
                         return true;
+
 
                 }
                 return false;
@@ -139,3 +141,4 @@ public class wishlist extends AppCompatActivity {
                 });
     }
 }
+*/

@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+package com.example.RoomSpacePlanner;
 
 public class getUserData {
 

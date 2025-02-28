@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+package com.example.RoomSpacePlanner;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -50,7 +50,7 @@ public class Admin_userReport extends AppCompatActivity {
         db = FirebaseFirestore.getInstance();
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView)findViewById(R.id.Anavigation);
-        bottomNavigationView.setSelectedItemId(R.id.ureport);
+      /**  bottomNavigationView.setSelectedItemId(R.id.ureport);  */
         //navigation bar
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @SuppressLint("NonConstantResourceId")
@@ -72,8 +72,9 @@ public class Admin_userReport extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.ureport:
+                 /**   case R.id.ureport:
                         return true;
+                  */
 
                 }
                 return false;

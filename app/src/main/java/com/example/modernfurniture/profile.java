@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+package com.example.RoomSpacePlanner;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
@@ -54,17 +54,18 @@ public class profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView)findViewById(R.id.navigation);
-        bottomNavigationView.setSelectedItemId(R.id.profile);
+       /** bottomNavigationView.setSelectedItemId(R.id.profile);  */
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @SuppressLint("NonConstantResourceId")
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
-                    case R.id.wishlist:
+                  /**  case R.id.wishlist:
                         startActivity(new Intent(getApplicationContext(),wishlist.class));
                         overridePendingTransition(0,0);
                         return true;
+                   */
 
                     case R.id.camera:
                         startActivity(new Intent(getApplicationContext(),MainActivity.class));
@@ -76,13 +77,15 @@ public class profile extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.cart:
+                   /** case R.id.cart:
                         startActivity(new Intent(getApplicationContext(),cart.class));
                         overridePendingTransition(0,0);
                         return true;
+                    */
 
-                    case R.id.profile:
+                 /**   case R.id.profile:
                         return true;
+                  */
 
                 }
                 return false;
@@ -113,6 +116,8 @@ public class profile extends AppCompatActivity {
 
         resendCode = findViewById(R.id.resendCode);
         verifyMsg = findViewById(R.id.verifyMsg);
+
+
 
 
         userId = fAuth.getCurrentUser().getUid();
@@ -160,7 +165,7 @@ public class profile extends AppCompatActivity {
         });
 
 
-        resetPassLocal.setOnClickListener(new View.OnClickListener() {
+        /** resetPassLocal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -197,10 +202,12 @@ public class profile extends AppCompatActivity {
                     }
                 });
 
+
                 passwordResetDialog.create().show();
 
             }
         });
+
 
         changeProfileImage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -214,7 +221,9 @@ public class profile extends AppCompatActivity {
 //
 
             }
+
         });
+         */
 
 
     }

@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+package com.example.RoomSpacePlanner;
 
 import android.content.Intent;
 import android.view.LayoutInflater;

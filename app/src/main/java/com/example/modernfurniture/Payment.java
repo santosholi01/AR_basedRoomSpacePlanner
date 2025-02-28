@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+package com.example.RoomSpacePlanner;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -59,7 +59,7 @@ public class Payment extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),cart.class));
+               // startActivity(new Intent(getApplicationContext(),cart.class));
             }
         });
         cardForm = findViewById(R.id.card_form);

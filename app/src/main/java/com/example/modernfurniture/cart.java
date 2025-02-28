@@ -1,6 +1,6 @@
-package com.example.modernfurniture;
+/** package com.example.RoomSpacePlanner;
 
-import android.annotation.SuppressLint;
+ import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -176,3 +176,5 @@ public class cart extends AppCompatActivity {
 
 
     }
+
+*/

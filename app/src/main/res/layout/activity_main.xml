@@ -49,7 +49,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recyclerview"
         app:menu="@menu/navigation_items"
-        tools:layout_editor_absoluteX="30dp" />
+        tools:layout_editor_absoluteX="-21dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

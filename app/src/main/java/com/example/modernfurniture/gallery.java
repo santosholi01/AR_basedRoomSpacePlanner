@@ -1,4 +1,4 @@
-package com.example.modernfurniture;
+package com.example.RoomSpacePlanner;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -48,25 +48,28 @@ public class gallery extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()){
-                    case R.id.wishlist:
+                   /** case R.id.wishlist:
                         startActivity(new Intent(getApplicationContext(),wishlist.class));
                         overridePendingTransition(0,0);
                         return true;
+                    */
 
                     case R.id.camera:
                         startActivity(new Intent(getApplicationContext(),MainActivity.class));
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.cart:
+                    /**case R.id.cart:
                         startActivity(new Intent(getApplicationContext(),cart.class));
                         overridePendingTransition(0,0);
                         return true;
+                     */
 
-                    case R.id.profile:
+                  /**  case R.id.profile:
                         startActivity(new Intent(getApplicationContext(),profile.class));
                         overridePendingTransition(0,0);
                         return true;
+                   */
 
                     case R.id.gallery:
                         return true;
